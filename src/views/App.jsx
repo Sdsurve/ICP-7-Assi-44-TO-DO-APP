@@ -45,20 +45,7 @@ function App() {
         <img height={'50px'} src={logo}/>
         <h1 className='App-heading'>TO DO APP</h1>
         <div className='To-do-list-container'>
-          {todoList.map((todoItem, i) => {
-            const { task, category } = todoItem;
-            return <ToDoCards 
-              key={i} 
-              index={i}
-              task={task}
-              category={category} 
-              deleteItem={deleteItem} />;
-          })}
-          {todoList.length === 0 ? (
-            <p style={{ textAlign: "center" }}>
-              No task to show, please add new Task
-            </p>
-          ) : null}
+        
         </div>
         <div className='input-container'>
           <select 
