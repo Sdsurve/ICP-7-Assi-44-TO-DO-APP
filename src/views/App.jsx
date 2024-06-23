@@ -72,7 +72,7 @@ function App() {
             <option value="Work">Work</option>
             <option value="Shopping">Shopping</option>
             <option value="Health">Health</option>
-            <option value="Other">Other</option>
+            <option value="Other">Others</option>
           </select>
           <input 
             className='input-field' 
