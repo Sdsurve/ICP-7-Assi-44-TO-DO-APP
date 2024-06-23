@@ -68,11 +68,7 @@ function App() {
             onChange={(e) => setCategory(e.target.value)}>
             <option value="">Select a Category</option>
             <option value="Personal">Personal</option>
-            <option value="Learning">Learning</option>
-            <option value="Work">Work</option>
-            <option value="Shopping">Shopping</option>
-            <option value="Health">Health</option>
-            <option value="Other">Others</option>
+          
           </select>
           <input 
             className='input-field' 
