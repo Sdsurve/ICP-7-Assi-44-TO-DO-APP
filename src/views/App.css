@@ -192,3 +192,27 @@
   margin: 2px;
 
 }
+
+@media screen and (max-width:1180px) {
+  
+  .To-do-list-container{
+    top: 20%;
+    right: 10%;
+  }
+}
+@media screen and (max-width:530px) {
+  
+  .To-do-list-container{
+    right: 7%;
+    width: 300px;
+    height: 350px;
+  }
+}
+@media screen and (max-width:410px) {
+  
+  .To-do-list-container{
+    right: 7%;
+    width: 200px;
+    height: 250px;
+  }
+}
