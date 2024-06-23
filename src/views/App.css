@@ -199,6 +199,10 @@
     top: 20%;
     right: 10%;
   }
+  .input-container{
+    display: block;
+    bottom: 0%;
+  }
 }
 @media screen and (max-width:530px) {
   
