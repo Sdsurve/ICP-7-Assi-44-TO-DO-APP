@@ -97,7 +97,7 @@
   padding: 10px;
   border-radius: 10px;
   transition: .5s;
-  margin: 0;
+  margin: 10px;
   box-shadow: 0 0 10px transparent;
 }
 
@@ -201,7 +201,7 @@
   }
   .input-container{
     display: block;
-    bottom: 0%;
+    bottom: 2%;
   }
 }
 @media screen and (max-width:530px) {
